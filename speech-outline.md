@@ -1,7 +1,18 @@
 1. About myself
 2. Intro
-3. 
-
+3. Explain comuter vision
+3.1. Images consist of pixels, placed on a grid. Make a nice zoomed in sketch.
+4. Algorithms
+4.1. Thresholding in the orange channel:
+4.1.1. Explain that orange is a mix of red and yellow, in nature.
+4.1.2. Explain that orange in RGB is a mix of: (255, 127, 0).
+Link from [wikipedia](http://en.wikipedia.org/wiki/Orange_(colour)): In the RGB colour model, the system used to create colours on a television or computer screen, orange is made by combining high intensity red light with a lower intensity green light, and the blue light turned off. 
+4.1.3. Select pixels where the RGB value is in the orange interval.
+4.2. Contour detection and circular test
+4.2.1. Detect contours.
+4.2.2. Explain the area test with some simple geometrical sketches (circle, ellipse, rectangle). Derive the circular test criterium.
+4.2.3. For all detected contours, run the test. Highlight only those contours who fulfill the circular criterium.
+4.3. 
 5. The implementation
 5.1. Introduce python with its advantages and place an accent on academic applications
 5.2. Introduce skimage
